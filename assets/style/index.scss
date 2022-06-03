@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Fira Code");
+$pad: 2rem;
+$orange: #ff9800;
+$purple: #ab75cc;
+$green: #95b487;
+$gray: #dbddde;
+$bg-color: #272e32;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bg-color;
+    color: $gray;
+    font-family: "Fira Code";
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.text-const{
+    color: $purple;
+}
+.text-key{
+    color:$orange
+}
+.text-value{
+    color:$green
+}
+
+.pad{
+    padding-left: $pad;
+}
+.pad-2{
+    padding-left: $pad * 1.5;
+}
+.personal > div{
+    line-height: 1.68;
+}

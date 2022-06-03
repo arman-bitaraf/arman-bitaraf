@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Fira Code");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #272e32;
+  color: #dbddde;
+  font-family: "Fira Code";
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.text-const {
+  color: #ab75cc;
+}
+
+.text-key {
+  color: #ff9800;
+}
+
+.text-value {
+  color: #95b487;
+}
+
+.pad {
+  padding-left: 2rem;
+}
+
+.pad-2 {
+  padding-left: 3rem;
+}
+
+.personal > div {
+  line-height: 1.68;
+}
+/*# sourceMappingURL=index.css.map */
