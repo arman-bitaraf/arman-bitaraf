@@ -6,11 +6,15 @@
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #272e32;
   color: #dbddde;
   font-family: "Fira Code";
-  font-size: 12px;
+  font-size: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,6 +48,6 @@ body {
 }
 
 .personal > div {
-  line-height: 1.68;
+  line-height: 1.6;
 }
 /*# sourceMappingURL=index.css.map */

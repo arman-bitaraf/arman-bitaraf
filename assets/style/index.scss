@@ -11,11 +11,14 @@ $bg-color: #272e32;
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     background-color: $bg-color;
     color: $gray;
     font-family: "Fira Code";
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,5 +41,5 @@ body{
     padding-left: $pad * 1.5;
 }
 .personal > div{
-    line-height: 1.68;
+    line-height: 1.6;
 }
